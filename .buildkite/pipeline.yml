@@ -1,0 +1,5 @@
+steps:
+  - name: "Install dependencies"
+    command: 
+    - "npm install --silent"
+    - "npm run build"
