@@ -3,6 +3,9 @@ steps:
     command: 
     - "npm install --silent"
     - "npm run build"
+    - "docker build ./"
+    env: 
+      DIRECTORY: "./"
     plugins:
       - docker#v3.8.0:
           image: "node:12"
