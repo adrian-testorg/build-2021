@@ -6,7 +6,7 @@ steps:
     plugins:
       - docker#v3.8.0:
           image: "node:12"
-   - name: "Docker Build"
-     command:
+  - name: "Docker Build"
+    command:
     - "docker build ./"
  
