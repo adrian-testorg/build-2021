@@ -3,3 +3,6 @@ steps:
     command: 
     - "npm install --silent"
     - "npm run build"
+    plugins:
+      - docker-compose#v3.8.0:
+          run: app
