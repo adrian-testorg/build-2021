@@ -5,4 +5,4 @@ steps:
     - "npm run build"
     plugins:
       - docker-compose#v3.8.0:
-          run: app
+          image: "node:12"
