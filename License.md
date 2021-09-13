@@ -1,7 +1,7 @@
            ADRIAN TEST DEMO LICENSE
-                    Version 2, December 2004
+                    Version 2, December 2021
 
- Copyright (C) 2021 Sam Hocevar <kleeadrian@test.com>
+ Copyright (C) 2021 Adrian <kleeadrian@test.com>
 
  Everyone is permitted to copy and distribute verbatim or modified
  copies of this license document, and changing it is allowed as long
