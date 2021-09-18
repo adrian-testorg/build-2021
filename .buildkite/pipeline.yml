@@ -1,4 +1,9 @@
 steps:
+
+
+  - label: "Listing my files"
+    command: "listing-files.sh"
+    
   - name: "Install dependencies"
     command: 
     - "npm install --silent"
