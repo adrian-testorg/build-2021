@@ -13,5 +13,5 @@ steps:
           image: "node:12"
   - name: "Docker Build"
     command:
-    - "docker build ./"
+    - "docker buildx ./"
  
