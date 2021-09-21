@@ -1,8 +1,4 @@
 steps:
-
-
-  - label: "Listing my files"
-    command: "listing-files.sh"
     
   - name: "Install dependencies"
     command: 
@@ -14,4 +10,9 @@ steps:
   - name: "Docker Build"
     command:
     - "docker buildx ./"
- 
+  - name: "Docker Push"
+    command: 
+    - "docker push 377117578606.dkr.ecr.ap-southeast-2.amazonaws.com/buildkite-demo"
+        plugins:
+      - ecr#v2.4.0:
+          login: true
